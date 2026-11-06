@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets - never commit your API key
+.env
+
+# Node
+node_modules/
+frontend/dist/
+
+# Generated caches / logs (rebuilt automatically)
+data/.cache/
+data/.*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
